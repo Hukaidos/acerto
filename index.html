@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerto de carga</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <img src="./atacadao-logo.png" alt="">
+        <h1>Acerto de carga</h1>
+    </nav>
+    <section class="menu">
+        <div>
+            <label for="data">Data:</label><br>
+            <input type="text" id="data" name="data" placeholder="99/99/9999" required>
+        </div>
+        <div>    
+            <label for="cargas">Cargas:</label><br>
+            <input type="text" id="cargas" name="cargas" placeholder="Digite a carga" required>
+        </div>
+        <div>
+            <label for="motorista">Motorista:</label><br>
+            <input type="text" id="motorista" name="motorista" placeholder="Digite o nome do motorista" required>
+        </div>
+        <div>    
+            <label for="descricao">Descrição:</label><br>
+            <input type="text" id="descricao" name="descricao" placeholder="Digite a Ocorrência" required>
+        </div>
+        <div>    
+            <label for="responsavel">Responsável:</label><br>
+            <input type="text" id="responsavel" name="responsavel" placeholder="Nome do funcionário" required>
+        </div>
+        <div>
+            <label for="escolhas">Status do acerto:</label><br>
+            <select id="escolhas" name="escolhas">
+                <option value="analisando">Analisando</option>
+                <option value="pendente">Pendente</option>
+                <option value="liberado">Liberado</option>
+            </select>        
+        </div>
+        <div>
+            <button id="botao">Gravar</button>
+        </div>
+    </section>
+    <section id="resultado"></section>
+    <script src="./script.js"></script>
+</body>
+</html>

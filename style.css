@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 8, 8); 
+    padding: 5px;
+}
+nav h1{
+    padding-left: 150px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 150px;
+}
+.menu{
+    background-color: bisque;
+    padding: 5px;
+    margin-top:  7px;
+    border: 2px solid rgb(253, 8, 8);
+    display: flex;
+}
+.menu div{
+    margin: 0 5px 0 5px;
+}
+#data{
+    width: 70px;
+}
+#cargas{
+    width: 130px;
+}
+#descricao{
+    width: 500px;
+}
+#responsavel{
+    width: 130px;
+}
+
+label{
+    font-size: 11px;
+}
+div #botao{
+    margin-top: 17px;
+}
+p{
+    background-color: rgb(243, 239, 228);
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    border: 2px solid rgb(rgb(32, 1, 1), green, blue);
+}
