@@ -28,16 +28,19 @@ img{
     margin: 0 5px 0 5px;
 }
 #data{
-    width: 70px;
+    width: 5vw;
 }
 #cargas{
-    width: 130px;
+    width: 10vw;
+}
+#motorista{
+    width: 10vw;
 }
 #descricao{
-    width: 500px;
+    width: 20vw;
 }
 #responsavel{
-    width: 130px;
+    width: 10vw ;
 }
 
 label{
@@ -45,6 +48,7 @@ label{
 }
 div #botao{
     margin-top: 17px;
+    width: 4vw;
 }
 p{
     background-color: rgb(243, 239, 228);
